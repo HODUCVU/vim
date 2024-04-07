@@ -9,7 +9,7 @@
 >vi editfile
 >vim editfile
 ```
-* Ternimal mode: <Esc>
+* Ternimal mode: 'Esc'
 * Quit: 
 	* ':q': quit
 	* ':q!': quit and not save change
@@ -34,6 +34,24 @@
 	* 'l': move to end
 	* 'j': move to bottom
 	* 'k': move to top
-	
+* Adjust tab:
+	* :set tabstop=5
+* Change theme color:
+	* :colorscheme + 'Tab' -> choose color
+* Save Setting mode:
+	* Config file ~/.vimrc.
+	```
+	> vi ~/.vimrc
+	```
+	* In file ~/.vimrc
+	```
+	set number
+	set relativenumber
+	set tabstop=4
+	set shiftwidth=4
+	set autoindent
+	set mouse=a
+	colorscheme darkblue
+	```
 ## Full tutorial
 * [FreeCodeCamp.org](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=LL&index=9&t=359s)

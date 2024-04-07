@@ -31,13 +31,16 @@
 * Select multiple words:
 	* 'v' + move arrows
 	* Use number + arrows to select work faster
+	* 'yy': Copy one line
 * Delete with key:
 	* 'd' + move: delete words and line with direction arrow
 	* 'v' -> 'd': delete words are selected by 'v'
+	* 'dd': delete one line 
+	* number + 'dd': delete number line
 * Past:
 	* 'v' -> 'y' -> 'p': copy and past
 	* 'v' -> 'd' -> 'p': cut and past
-	* Mutiple past: number + 'p'
+	* Mutiple past: number + 'p'	
 ## Advance instrucment
 * Number line editor:
 	* ':set number'
@@ -64,5 +67,8 @@
 	```
 ## Full tutorial
 * [FreeCodeCamp.org](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=LL&index=9&t=359s)
+	* <!-- Current 30:00 -->
 * [Vim cheat Sheet](https://vim.rtorr.com/)
 * Look more intuitive, [Vim cheatSheet look easier](https://devhints.io/vim)
+
+

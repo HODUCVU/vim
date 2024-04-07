@@ -7,6 +7,7 @@
 * Use vim
 ```
 >vi editfile
+or
 >vim editfile
 ```
 * Ternimal mode: 'Esc'
@@ -67,7 +68,7 @@
 	```
 ## Full tutorial
 * [FreeCodeCamp.org](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=LL&index=9&t=359s)
-	 <!-- Current 30:00 -->
+	<!-- Current 30:00 -->
 * [Vim cheat Sheet](https://vim.rtorr.com/)
 * Look more intuitive, [Vim cheatSheet look easier](https://devhints.io/vim)
 	![](vim-cheatsheet.png)

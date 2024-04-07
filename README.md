@@ -43,8 +43,11 @@
 * Save Setting mode:
 	* Config file ~/.vimrc.
 	```
+	>cp config.txt ~/.vimrc
+	```
+	* Modify setting vim
+	```
 	> vi ~/.vimrc
-	> cp config.txt ~/.vimrc
 	```
 ## Full tutorial
 * [FreeCodeCamp.org](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=LL&index=9&t=359s)

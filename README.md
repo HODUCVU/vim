@@ -1,4 +1,4 @@
-# vim
+# Vim
 ## Basic instrucments
 * install:
 ```
@@ -19,12 +19,25 @@
 	* Shift + 'i': insert in beginning of current line
 	* 'a': insert in next current character
 	* 'o': insert with newline
+	* 's': insert with erase next current character
 * Save:
 	* ':w'
 * Undo:
 	* 'u'
+	* number + 'u': undo x times
 * Redo:
 	* Ctrl + 'R'
+	* number + Ctrl + 'R': redo x times
+* Select multiple words:
+	* 'v' + move arrows
+	* Use number + arrows to select work faster
+* Delete with key:
+	* 'd' + move: delete words and line with direction arrow
+	* 'v' -> 'd': delete words are selected by 'v'
+* Past:
+	* 'v' -> 'y' -> 'p': copy and past
+	* 'v' -> 'd' -> 'p': cut and past
+	* Mutiple past: number + 'p'
 ## Advance instrucment
 * Number line editor:
 	* ':set number'
@@ -47,7 +60,7 @@
 	```
 	* Modify setting vim
 	```
-	> vi ~/.vimrc
+	>vi ~/.vimrc
 	```
 ## Full tutorial
 * [FreeCodeCamp.org](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=LL&index=9&t=359s)

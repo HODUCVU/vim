@@ -23,6 +23,8 @@
 	* ':w'
 * Undo:
 	* 'u'
+* Redo:
+	* Ctrl + 'R'
 ## Advance instrucment
 * Number line editor:
 	* ':set number'
@@ -42,16 +44,9 @@
 	* Config file ~/.vimrc.
 	```
 	> vi ~/.vimrc
-	```
-	* In file ~/.vimrc
-	```
-	set number
-	set relativenumber
-	set tabstop=4
-	set shiftwidth=4
-	set autoindent
-	set mouse=a
-	colorscheme darkblue
+	> cp config.txt ~/.vimrc
 	```
 ## Full tutorial
 * [FreeCodeCamp.org](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=LL&index=9&t=359s)
+* [Vim cheat Sheet](https://vim.rtorr.com/)
+* Look more intuitive, [Vim cheatSheet look easier](https://devhints.io/vim)

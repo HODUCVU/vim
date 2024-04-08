@@ -21,8 +21,13 @@ or
 	* 'a': insert in next current character
 	* 'o': insert with newline
 	* 's': insert with erase next current character
+	* 'ci' + symbol: erase content in symbol and go to insert mode. EX: print("I do not know what to say")
+		* ci" => print("")
+		* ci( => print()
 * Save:
 	* ':w'
+* Tab:
+	* >> and <<
 * Undo:
 	* 'u'
 	* number + 'u': undo x times
@@ -31,17 +36,33 @@ or
 	* number + Ctrl + 'R': redo x times
 * Select multiple words:
 	* 'v' + move arrows
+	* shift + 'v': select line
 	* Use number + arrows to select work faster
 	* 'yy': Copy one line
+	* 'yiw': Copy one word.
 * Delete with key:
 	* 'd' + move: delete words and line with direction arrow
 	* 'v' -> 'd': delete words are selected by 'v'
 	* 'dd': delete one line 
+	* d + number + w: delete number of word
+	* shift + 'd': delete from current pointer to end line
 	* number + 'dd': delete number line
+	* 'cc': erase content current line and into edit mode, it different from 'dd', 'cc' erase content of line, but 'dd' erase line
 * Past:
 	* 'v' -> 'y' -> 'p': copy and past
 	* 'v' -> 'd' -> 'p': cut and past
 	* Mutiple past: number + 'p'	
+	* 'p': past under current line if pointer in begin line
+	* shift + 'p': past above current line if pointer in begin line
+* Jumping: with code, (), {}
+	* '%': jumping to begin and end of block function
+	* 'd%': delete block of function
+	* 't' + symbol: jump to next symbol.
+		* EX: /* asd asf ew */ => 't*' => jump to */
+		* switch (c) => 'dt(' => delete everything from begin to ( => (c)
+	* shift + 't': jump to before symbol
+	* 'gg': jump to begin, shift + 'G': jump to end
+	* ':number': jump to number of line
 ## Advance instrucment
 * Number line editor:
 	* ':set number'
@@ -53,6 +74,8 @@ or
 	* 'l': move to end
 	* 'j': move to bottom
 	* 'k': move to top
+	* 'w': move of word
+	* 'b': move back of word
 * Adjust tab:
 	* :set tabstop=5
 * Change theme color:
@@ -68,7 +91,7 @@ or
 	```
 ## Full tutorial
 * [FreeCodeCamp.org](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=LL&index=9&t=359s)
-	<!-- Current 30:00 -->
+	<!-- Current 50:00 -->
 * [Vim cheat Sheet](https://vim.rtorr.com/)
 * Look more intuitive, [Vim cheatSheet look easier](https://devhints.io/vim)
 	![](vim-cheatsheet.png)

@@ -119,7 +119,7 @@ then
 	* [Config](https://www.youtube.com/watch?v=JWReY93Vl6g)
 	* ctrl + t: show files
 	* ctrl + f: choice files
-	![](images/neovim.png)
+![](images/neovim.png)
 ## Full tutorial
 * [FreeCodeCamp.org](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=LL&index=9&t=359s)
 * [Vim cheat Sheet](https://vim.rtorr.com/)

@@ -113,9 +113,9 @@ then
 	* :%s/words/new-words/g: replace all word in file
 	* 'v' to select area to search -> ':' -> 's/words/new-words/g: replace all word in area is selected
 * neovim:
-```
-> nvim file
-```
+	```
+	> nvim file
+	```
 	* [Config](https://www.youtube.com/watch?v=JWReY93Vl6g)
 	* ctrl + t: show files
 	* ctrl + f: choice files

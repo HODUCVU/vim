@@ -17,8 +17,9 @@ or
 	* ':wq': quit and save change
 * Insert (edit mode):
 	* 'i'
-	* Shift + 'i': insert in beginning of current line
-	* 'a': insert in next current character
+	* 'I': insert in beginning of current line
+	* 'a': insert in end of current character
+	* 'A': insert in end of current line
 	* 'o': insert with newline
 	* 's': insert with erase next current character
 	* 'ci' + symbol: erase content in symbol and go to insert mode. EX: print("I do not know what to say")
@@ -27,7 +28,11 @@ or
 * Save:
 	* ':w'
 * Tab:
-	* >> and <<
+```
+shift select line 
+then
+>> and <<
+```
 * Undo:
 	* 'u'
 	* number + 'u': undo x times
@@ -89,6 +94,30 @@ or
 	```
 	>vi ~/.vimrc
 	```
+* '==': auto set correct tab line
+* '=' + 'G': auto set correct tab line from pointer to end
+* Mark line:
+	* 'm' + key, EX: mark line 100 with ma -> in otherline enter: 'a to go to line 100
+* Implement fast with most current instruction:
+	* '.'
+	* ex: when 'd' then '.' -> it delete
+	* ex: when 'p' then '.' -> it past	
+### Important
+* Search: 
+	* '/' + text: search text in file -> 'n': to go to next text, 'N': go back 
+	* '?' + text -> n: go back
+	* ':' + number: go to line
+* Move to center screen to pointer:
+	* 'zz' -> no need to use scroll mouse anymore
+* Replace words:
+	* :%s/words/new-words/g: replace all word in file
+	* 'v' to select area to search -> ':' -> 's/words/new-words/g: replace all word in area is selected
+* neovim:
+```
+> nvim file
+```
+	* ctrl + t: show files
+	* ctrl + f: choice files
 ## Full tutorial
 * [FreeCodeCamp.org](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=LL&index=9&t=359s)
 	<!-- Current 50:00 -->

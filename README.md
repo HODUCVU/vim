@@ -116,12 +116,13 @@ then
 ```
 > nvim file
 ```
+	* [Config](https://www.youtube.com/watch?v=JWReY93Vl6g)
 	* ctrl + t: show files
 	* ctrl + f: choice files
+	![](images/neovim.png)
 ## Full tutorial
 * [FreeCodeCamp.org](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=LL&index=9&t=359s)
-	<!-- Current 50:00 -->
 * [Vim cheat Sheet](https://vim.rtorr.com/)
 * Look more intuitive, [Vim cheatSheet look easier](https://devhints.io/vim)
-	![](vim-cheatsheet.png)
+		![](images/vim-cheatsheet.png)
 

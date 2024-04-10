@@ -119,6 +119,9 @@ then
 	* [Config](https://www.youtube.com/watch?v=JWReY93Vl6g)
 	* ctrl + t: show files
 	* ctrl + f: choice files
+	* 'o': open file, 'go': preview file
+	* 's': open vsplit left
+	* 'i': open split top
 ![](images/neovim.png)
 ## Full tutorial
 * [FreeCodeCamp.org](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=LL&index=9&t=359s)

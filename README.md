@@ -117,6 +117,7 @@ then
 	> nvim file
 	```
 	* [Config](https://www.youtube.com/watch?v=JWReY93Vl6g)
+	* [Repo config vim](https://github.com/NeuralNine/config-files/tree/master)
 	* Setup design neovim:
 		```
 		> mkdir -p ~/.config/nvim/

@@ -117,6 +117,12 @@ then
 	> nvim file
 	```
 	* [Config](https://www.youtube.com/watch?v=JWReY93Vl6g)
+	* Setup design neovim:
+		```
+		> mkdir -p ~/.config/nvim/
+		> cp config-neovim.txt ~/.config/nvim/init.vim
+		# and do everything like the link Config 
+		```
 	* ctrl + t: show files
 	* ctrl + f: choice files
 	* 'o': open file, 'go': preview file

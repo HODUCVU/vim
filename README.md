@@ -102,7 +102,7 @@ then
 	* '.'
 	* ex: when 'd' then '.' -> it delete
 	* ex: when 'p' then '.' -> it past	
-### Important
+## Important
 * Search: 
 	* '/' + text: search text in file -> 'n': to go to next text, 'N': go back 
 	* '?' + text -> n: go back
@@ -130,6 +130,35 @@ then
 	* 's': open vsplit left
 	* 'i': open split top
 ![](images/neovim.png)
+* **Lazyvim**
+  * Install: neovim version >= 0.8
+    ```
+    > sudo snap install nvim
+    ```
+  * [Install lazyvim](https://www.lazyvim.org/installation?fbclid=IwAR3AUsm1neBG1LM3JhonK5Qf99KKfDNfC--B6FjiXKblfp-V89rK9KoyUYI):
+    * Step 1:
+      ```
+      # required
+        mv ~/.config/nvim{,.bak}
+        # optional but recommended
+        mv ~/.local/share/nvim{,.bak}
+        mv ~/.local/state/nvim{,.bak}
+        mv ~/.cache/nvim{,.bak}
+      ```
+    * Step 2:
+      ```
+      git clone https://github.com/LazyVim/starter ~/.config/nvim
+      ```
+    * Step 3: remote .git
+      ```
+      rm -rf ~/.config/nvim/.git
+      ```
+    * Run: nvim
+  * Intrucments:
+    * <space> + keywork.
+    * 'f': find
+    * 'w': window
+    * ...
 ## Full tutorial
 * [FreeCodeCamp.org](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=LL&index=9&t=359s)
 * [Vim cheat Sheet](https://vim.rtorr.com/)
